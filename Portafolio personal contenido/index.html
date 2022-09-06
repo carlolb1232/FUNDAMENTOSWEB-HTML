@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Carlo López Balbín</h1>
+    <img src="./img/profile.jpg" alt="Imagen de perfil">
+  </header>
+  <div class="links">
+    <img src="./img/github.png" alt="github logo">
+    <a target="_blank" href="https://github.com/carlolb1232">My Github</a>
+    <img src="./img/linkedin.png" alt="linkedin logo">
+    <a target="_blank" href="https://www.linkedin.com/in/carlo-balbin-5594211b7/">My Linkedin</a>
+    <img src="./img/email.png" alt="email logo">
+    <a target="_blank" href=mailto:carlolb1232@gmail.com>My email</a>
+  </div>
+  <div class="tecnologies">
+    <h2>Tecnologies</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Front-End</th>
+          <th>PHP</th>
+          <th>JavaScript</th>
+          <th>Database</th>
+          <th>Concepts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML5</td>
+          <td>Laravel</td>
+          <td>Express</td>
+          <td>MySQL</td>
+          <td>AJAX</td>
+        </tr>
+        <tr>
+          <td>CSS3</td>
+          <td>Phalcon</td>
+          <td>Mongoose</td>
+          <td>MongoDB</td>
+          <td>OOP</td>
+        </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>Synfony</td>
+          <td>React</td>
+          <td></td>
+          <td>REST</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="proyectos">
+    <h2>RepositorioRIPE</h2>
+    <img src="./img/ripe.png" alt="logo ripe">
+    <p>Repositorio institucinal para la red de investigación de posgrado en educación - <a target="_blank" href="https://github.com/carlolb1232/reporipe">Code</a> | <a target="_blank" href="https://repositorioripe.edu.pe/">Deployed</a></p>
+  </div>
+  <div class="contactMe">
+    <h2>Contact Me</h2>
+    <form action="/post" method="post">
+      <div class="contact-data">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="description">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <input class="submit" type="submit" value="SEND MESSAGE">
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+html{
+  padding: 10px;
+}
+
+.links img{
+  width: 20px;
+  display: inline-block;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+
+td, th, tr{
+  border: solid 2px black;
+  margin: 0;
+}
+
+
+thead tr:first-child th:first-child{
+  border-left: none;
+}
+
+tbody tr td:first-child{
+  border-left: none;
+}
+
+tbody tr td{
+  border-bottom: none;
+}
+
+textarea{
+  display: block;
+}
+
+.submit{
+  margin-top: 10px;
+}
+
+div{
+  margin-top: 10px;
+}
+
